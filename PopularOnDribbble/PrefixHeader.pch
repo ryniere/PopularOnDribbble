@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  PopularOnDribbble
+//
+//  Created by Ryniere dos Santos Silva on 8/6/15.
+//  Copyright (c) 2015 Ryniere dos Santos Silva. All rights reserved.
+//
+
+#ifndef PopularOnDribbble_PrefixHeader_pch
+#define PopularOnDribbble_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define IS_IPAD() (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
+#endif
